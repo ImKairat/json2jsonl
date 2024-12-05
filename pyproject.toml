@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "json2jsonl"
+version = "0.1.0"
+description = "json2jsonl is a Python utility that converts JSON files into the JSON Lines (JSONL) format. It reads a standard JSON file, which typically contains a list or array of objects, and outputs a corresponding JSONL file where each object is written to a new line."
+authors = ["Kubanychbek uulu Kairat <kubanychbekukairat@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jsonlines = "4.0.0"
+pytest = "^8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
