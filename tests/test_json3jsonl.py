@@ -1,5 +1,5 @@
 import pytest # type: ignore
-from json2jsonl import Json2jsonl
+from flex_json import Json2jsonl
 
 
 def test_json2jsonl():

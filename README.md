@@ -1,6 +1,6 @@
-# json2jsonl
+# flex_json
 
-**json2jsonl** is a simple Python utility for converting JSON files (containing arrays of objects) into JSON Lines (JSONL) format. 
+**flex_json** is a simple Python utility for converting JSON files (containing arrays of objects) into JSON Lines (JSONL) format. 
 JSONL is a lightweight and efficient data serialization format where each line represents a single JSON object.
 
 ## Features
